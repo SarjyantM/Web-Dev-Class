@@ -1,24 +1,20 @@
-.box{
-    width: 50%;
-    height: 355px;
-    padding: 20px;
-    border: 5px solid black;
-    margin: 20px;
-
-}
-h1{
-    font-weight: bold;
-    color: brown;
-    margin-bottom: 48px;
-}
-body >h1 >p{
-    font-size: 16px;
-}
-div img{
-    object-fit: cover;
-
-}
-div p{
-    font-size: 12px;
-}
-
+    h1{
+        font-weight: bold;
+        color:brown;
+        margin-bottom: 48px;
+    }
+    div{
+        border: 2px solid black;
+        width: 50%;
+        padding: 20px;
+    }
+    div img{
+        height: 350px;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+    div p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+    }
