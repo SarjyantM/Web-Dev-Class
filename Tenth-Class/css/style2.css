@@ -1,0 +1,45 @@
+body {
+  height: 4000px;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left {
+  top: 20px;
+  left: 20px;
+  background: #3498db;
+}
+
+.top-right {
+  top: 20px;
+  right: 20px;
+  background: #2ecc71;
+}
+
+.bottom-left {
+  bottom: 20px;
+  left: 20px;
+  background: #e74c3c;
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px;
+  background: #f39c12;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #9b59b6;
+}
